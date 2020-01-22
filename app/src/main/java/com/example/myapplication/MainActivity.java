@@ -13,9 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    private void print(ArrayList cats){
-        for (Cat cat  ; cats){
-        System.out.println( "Cat name: " +cat.getName());
 
+    private void print(ArrayList<Cat> cats) {
+        for (Cat cat : cats) {
+            System.out.println("Cat name: " + cat.getName());
+
+        }
     }
 }
